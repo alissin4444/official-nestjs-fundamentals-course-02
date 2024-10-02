@@ -28,4 +28,5 @@ Atualize-se rapidamente com o NestJS. Domine os blocos de construção e os conc
 ------- 
 
 ### Collection da API caso tenha interesse em testa-la
-[Collections.zip](https://github.com/user-attachments/files/17181004/Collections.zip)
+[collection.json.zip](https://github.com/user-attachments/files/17237104/collection.json.zip)
+
