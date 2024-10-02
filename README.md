@@ -6,19 +6,24 @@
 Atualize-se rapidamente com o NestJS. Domine os blocos de construção e os conceitos essenciais por trás da criação de seus próprios aplicativos de nível empresarial.
 
 ## Official Nestjs Fundamentals Course - 02 NestJS with PostgresSQL and TypeORM
-- Instalar e configurar uma aplicação NestJS
-- Criação de controllers e services
-- Uso de rotas
-- Error handling
-- Status code para respostas
-- Domínio de negócio
-- Modularização da aplicação
-- Manipulação e criação de DTO (Data Object Transfer)
-- Manipulando o corpo da solicitação/carga
-- Manipulando solicitações de atualização e exclusão
-- Paginação em listagem de dados
-- Manipulando dados de solicitação maliciosa
-- Validação de dados
+- Install docker and docker-compose up -d
+- Running PostgresSQL
+- TypeORM Modules
+- TypeORM Entity (relationship between a typescript class and database table)
+- Repositories
+- Relation between Entities
+    - One-to-one relation @OneToOne()
+    - One-to-many relation @OneToMany() and @ManyToOne()
+    - Many-to-Many relation @ManyToMany()
+- Retrieve data from relations
+- Cascading inserts and updates
+- TypeORM Pagination
+- Transactions
+- Add Indexes to Entities
+- Handling migrations
+    - npx typeorm migration:run -d dist/typeorm-cli.config
+    - npx typeorm migration:revert -d dist/typeorm-cli.config
+    - npx typeorm migration:generate src/migrations/SchemaSync -d dist/typeorm-cli.config
 
 ------- 
 
